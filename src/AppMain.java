@@ -46,7 +46,7 @@ public class AppMain {
                         System.out.println("You must input the integer between 1 to 4");
                         continue;
             }
-
+            System.out.println("name\tlevel\tlove");
             for (int i = 0; i <nncount ; i++) {
                 System.out.println(nnNameArray[i] + "\t" + levelNames[level[i]] + "\t" + loves[i]);
             }
